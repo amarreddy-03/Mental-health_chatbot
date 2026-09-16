@@ -1,0 +1,78 @@
+/* Background */
+/* Main App Background */
+.stApp {
+    background: white;
+    color: black;
+}
+
+/* Main Content Area */
+.main {
+    background-color: white;
+    color: black;
+}
+
+/* Title */
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Subheading */
+h2, h3 {
+    color: black;
+}
+
+/* Paragraphs and Text */
+p, div, span, label {
+    color: black;
+    font-size: 17px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1565C0;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    background-color: #1565C0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 45px;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #0D47A1;
+}
+
+/* Info Boxes */
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+}
+
+/* Success Box */
+.stSuccess {
+    border-radius: 12px;
+}
+
+/* Warning Box */
+.stWarning {
+    border-radius: 12px;
+}
